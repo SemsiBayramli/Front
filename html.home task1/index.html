@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>My Feedback Form</h1>
+    <ul>
+      <li>
+        <label for="name">Name</label>
+        <input type="text" />
+      </li>
+      <li>
+        <label for="email">Email</label>
+        <input type="email" />
+      </li>
+      <li>
+        <label for="password">Password</label>
+        <input type="password" />
+      </li>
+      <br />
+      <li>
+        <p>Please check all the emotions that apply to you:</p>
+      </li>
+      <ul style="list-style-type: disc">
+        <li>
+          <label for="angry" name="emotions">Angry</label>
+          <input type="checkbox" id="angry" />
+        </li>
+        <li>
+          <label for="sad" name="emotions">Sad</label>
+          <input type="checkbox" id="sad" />
+        </li>
+        <li>
+          <label for="happy" name="emotions">Happy</label>
+          <input type="checkbox" id="happy" />
+        </li>
+        <li>
+          <label for="ambivalent" name="emotions">Ambivalent</label>
+          <input type="checkbox" id="ambiwalent" />
+        </li>
+      </ul>
+      <li>
+        <p>How satisfied were you with our services</p>
+      </li>
+      <ul style="list-style-type: disc">
+        <li>
+          <label for="">Very Satisfied</label>
+          <input type="checkbox" />
+        </li>
+        <li>
+          <label for="">Satisfied</label>
+          <input type="checkbox" />
+        </li>
+        <li>
+          <label for="">Didnt care</label>
+          <input type="checkbox" />
+        </li>
+        <li>
+          <label for="">Dissastified</label>
+          <input type="checkbox" />
+        </li>
+        <li>
+          <label for="">Very Dissastified</label>
+          <input type="checkbox" />
+        </li>
+      </ul>
+      <li>
+        <label for="">Further comments:</label>
+        <input type="text" style="height: 45px" />
+      </li>
+      <br />
+      <li>
+        <label for="">Bio Photo:</label>
+        <input type="text" />
+        <input style="border-radius: 20px" type="button" value="Choose.." />
+      </li>
+      <li>
+        <label for="loc">Location visited: </label>
+        <select>
+            <optgroup>
+                <option selected value="">Select location</option>
+            </optgroup>           
+        </select>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <input style="border-radius: 20px" type="button" value="submit" />
+      </li>
+    </ul>
+  </body>
+</html>
